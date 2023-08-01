@@ -1,0 +1,114 @@
+.inicio{
+    /* text-align: center; */
+    margin-top: 100px;
+    margin-top: 15px;
+    justify-content: space-around;
+    display: flex;
+    padding: 10px;
+    
+}
+
+.nickolas{
+    font-size: 2.4em;
+    font-family: 'Dancing Script', cursive;
+    color: rgb(206, 209, 24);
+}
+
+.web{
+    font-family: 'Dancing Script', cursive;
+    font-size: 2.4em;
+    color: rgb(204, 202, 202);
+}
+ 
+.brasil, .idade{
+    font-family: 'Dancing Script', cursive;
+    font-weight: 900;
+    font-size: 1.1em;
+    color: rgb(214, 236, 18);
+    margin-top: 5px;
+}
+
+.fotoPerfil{
+    border-radius: 35%;
+    height: 170px;
+    margin-left: 29px;
+}
+
+.paragrafo{
+    padding: 20px;
+    width: 60%;
+    background-color: rgb(194, 188, 188);
+    font-size: 1.3em;
+    margin-top: 20px;
+    margin: auto;
+    color: black;
+    border-radius: 10%;
+    border: 1px solid black;
+    box-shadow: 3px 3px 3px;
+    
+    
+}
+
+.partecentral{
+    flex-direction: column;
+    padding: 10px;
+    margin-left: 60px;
+    border: 1px solid black;
+    padding: 20px;
+    box-shadow: 1px 1px 5px 3px white;
+    border-radius: 10px;
+    background-color: rgba(121, 121, 223, 0.61);
+    height: 340px;
+}
+.paragrafos{
+    flex-direction: column;
+}
+
+.paragrafo2{
+    border: 1px solid white;
+    margin-top: 50px;
+    border-radius: 10%;
+    background-color: rgb(66, 66, 49);
+    width: 60%;
+    color: rgb(206, 209, 24);
+    box-shadow: 3px 3px 3px;
+    font-size: 1.3em;
+    padding: 10px;
+    margin-left: 65px;
+}
+
+.paragrafo3{
+    border: 1px solid black;
+    margin-left: 180px;
+    margin-top: 50px;
+    width: 70%;
+    padding: 12px;
+    font-size: 1.3em;
+    background-color: rgb(240, 220, 220);
+    box-shadow: 3px 5px 3px;
+    color: black;
+    border-radius: 10%;
+}
+
+@media(max-width: 1100px){
+    .inicio{
+        flex-direction: column;
+    }
+
+    .partecentral{
+        margin: auto;
+        margin-bottom: 15px;
+    }
+
+    .paragrafo2{
+        margin: auto;
+        margin-top: 20px;
+    }
+
+    .paragrafo3{
+        margin: auto;
+        margin-top: 20px;
+    }
+}
+
+    

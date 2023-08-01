@@ -1,0 +1,120 @@
+.tit{
+    text-align: center;
+    padding: 10px;
+    color: rgb(206, 209, 24);
+}
+
+.github{
+    color:rgb(206, 209, 24);
+    text-align: center;
+    padding: 10px;
+    font-size: 1.3em;
+}
+
+.todosprojetos{
+    display: flex;
+    margin-top: 10px;
+    flex-wrap: wrap;
+    
+}
+
+.robotrom1, .mochila, .weather1, .inter1{
+    height: 300px;
+    width: 470px;
+    border-radius: 20px;
+    margin-right: 15px;
+    overflow: hidden;
+    
+}
+
+.robotrom, .mochila1, .weather, .inter:hover{
+    cursor: pointer;
+}
+
+.robotrom, .mochila1, .weather, .inter{
+    width: 35%;
+    padding-left: 45px;
+    margin: 10px;
+    margin-left: 85px;
+}
+
+
+.site, .git{
+    font-size: 1.4em;
+    text-decoration: none;
+    color: black;
+    margin-bottom: 10px;
+}
+
+.botao{
+    margin-left: 80px;
+}
+
+@media(max-width: 1100px){
+    .robotrom1{
+        padding: 10px;
+        width: 280px;
+        height: 240px;
+    }
+
+    .mochila{
+        padding: 10px;
+        width: 280px;
+        height: 240px;
+    }
+     .mochila1{   /*div */
+        width: 45%;
+    }
+
+    .robotrom{
+        width: 45%;
+        margin: auto;
+    }
+
+    .weather{
+        width: 45%;
+    }
+
+    .weather1{
+        padding: 10px;
+        width: 280px;
+        height: 240px;
+    }
+
+    .inter{
+        width: 45%;
+    }
+
+    .inter1{
+        padding: 10px;
+        width: 280px;
+        height: 240px;
+    }
+
+    ::-webkit-scrollbar{
+        height: 5px;
+        color:rgb(206, 209, 24)
+    }
+
+    .botao{
+        width: 80px;
+        margin-left: 90px;
+    }
+
+    .todosprojetos{
+        overflow-x: auto;
+        flex-wrap: nowrap;
+        margin: auto;
+        text-align: center;
+        align-items: center;
+    }
+
+    .site, .git{
+        font-size: 1.19em;
+    }
+
+    .github{
+        font-size: 1.1em;
+    }
+}
+

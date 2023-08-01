@@ -1,0 +1,74 @@
+.contato{
+    color: #FFFFFF;
+    text-decoration: underline;
+}
+
+.contatos{
+    margin-top: 20px;
+}
+
+.todo{
+    text-align: center;
+    width: 50%;
+    margin: auto;
+    padding: 10px;
+}
+
+.linkedin{
+    height: 70px;
+    width: 70px;
+}
+
+.divlinkedin{
+    padding: 20px;
+    border-bottom: 1px solid white;
+}
+
+.divgit{
+    padding: 20px;
+    border-bottom: 1px solid white;
+}
+
+.divemail{
+    padding: 20px;
+    border-bottom: 1px solid white;
+
+}
+
+button{
+    padding: 20px;
+    margin: 10px;
+    width: 100px;
+    border-radius: 20px;
+    height: 30px;
+    text-decoration: none;
+    background-color: rgba(0, 255, 255, 0.63);
+}
+
+button:hover{
+    background-color: rgb(101, 153, 196);
+    cursor: pointer;
+    border: white;
+}
+
+.botao{
+    color: black;
+    text-decoration: none;
+    padding-bottom: 10px;
+    font-size: 1.32em;
+}
+
+.curriculo{
+    margin-top: 15px;
+    height: 30px;
+    color: black;
+    text-decoration: none;
+}
+
+.btncur{
+    height: 50px;
+    font-size: 1em;
+    text-decoration: underline;
+    width: 170px;
+}
+    
