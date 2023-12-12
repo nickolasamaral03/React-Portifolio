@@ -2,7 +2,7 @@ import styles from './Contato.module.css'
 import linkedin from '../Images/linkedin.png'
 import gmail from '../Images/gmail.png'
 import github from '../Images/github.png'
-import curriculo from '../Curriculo/NICKOLAS AMARAL.docx'
+import curriculo from '../Curriculo/CURRÍCULO - 2.docx'
 import {Link} from 'react-router-dom'
 
 export default function Contato(){
